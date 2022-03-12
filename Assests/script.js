@@ -26,22 +26,6 @@ $(document).ready(() => {
   $('#16t').val(localStorage.getItem('16h'))
   $('#17t').val(localStorage.getItem('17h'))
 
-  //couldnt solve how to loop through the local storage and grab, did manual instead(see ln 19-27)
-  // const getData = () => {
-  //   $('.saveBtn').each(function () {
-  //     // let valu = $('.time-block').children('.description').val()
-  //     // let time = $(this).children().attr('id')
-  //     let valu = $(this).siblings('.description').val()
-  //     let time = $(this).parent().attr('id')
-  //     let blocktime = $('.time-block')
-
-  //     //$(time, '.description').val
-  //     let dataUser = localStorage.getItem(time, valu)
-  //     console.log(dataUser)
-  //     blocktime.children('description').text(dataUser)
-  //   })
-  // }
-
   //function that changes the color of the block
   const colorChange = () => {
     //getting the current hours based on local time
